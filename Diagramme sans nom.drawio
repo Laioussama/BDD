@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-16T20:26:25.696Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="37dHBBhzJu5wAlcKq_FI" version="20.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-16T20:30:41.941Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="iYL3MLZE0IoRf7TNrZGs" version="20.8.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="756" dy="440" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -38,7 +38,7 @@
           <mxGeometry x="24" y="140" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="kNG4grC75QlbrtCjjNvb-12" value="Auteur" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="340" y="480" width="155" height="150" as="geometry" />
+          <mxGeometry x="235" y="445" width="155" height="150" as="geometry" />
         </mxCell>
         <mxCell id="kNG4grC75QlbrtCjjNvb-13" value="&lt;p class=&quot;MsoNormal&quot;&gt;IdAuteur&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="kNG4grC75QlbrtCjjNvb-12">
           <mxGeometry x="45" y="22" width="70" height="50" as="geometry" />
@@ -136,15 +136,6 @@
         <mxCell id="kNG4grC75QlbrtCjjNvb-45" value="1,n" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="469" y="250" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="kNG4grC75QlbrtCjjNvb-46" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kNG4grC75QlbrtCjjNvb-12">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="510" y="440" as="sourcePoint" />
-            <mxPoint x="520" y="360" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="370" y="330" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="kNG4grC75QlbrtCjjNvb-48" value="" style="endArrow=none;html=1;rounded=0;exitX=0.587;exitY=-0.011;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kNG4grC75QlbrtCjjNvb-24">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="243" y="441" as="sourcePoint" />
@@ -156,6 +147,27 @@
         </mxCell>
         <mxCell id="kNG4grC75QlbrtCjjNvb-5" value="&lt;p class=&quot;MsoNormal&quot;&gt;Catégorie de livre (CL)&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="30" y="140" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kNG4grC75QlbrtCjjNvb-53" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kNG4grC75QlbrtCjjNvb-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="430" as="sourcePoint" />
+            <mxPoint x="520" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kNG4grC75QlbrtCjjNvb-54" value="Ecrit" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="432.5" y="390" width="55" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="kNG4grC75QlbrtCjjNvb-55" value="1,n" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="390" y="410" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kNG4grC75QlbrtCjjNvb-56" value="0,n" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="469" y="360" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kNG4grC75QlbrtCjjNvb-57" value="1,n" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="110" y="330" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kNG4grC75QlbrtCjjNvb-59" value="&lt;p class=&quot;MsoNormal&quot;&gt;Synopsis&amp;nbsp;:&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;p class=&quot;MsoNormal&quot;&gt;Création d’un système d’information (entité, association, base de donné) pour une librairie qui contienne des centaines de livres (1,n) et qui les achètes auprès des maisons d’éditions (), ces derniers éditent des livres des auteurs qui écrivent pour les lecteurs (clients) qui commandent (1, n) un ou plusieurs livres à la fois. Des tarifs peuvent se faire pour les clients&lt;br&gt;fidèles. &lt;span style=&quot;mso-spacerun:yes&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;mso-spacerun:yes&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;mso-spacerun:yes&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;mso-spacerun:yes&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;mso-spacerun:yes&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;mso-spacerun:yes&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;mso-spacerun:yes&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;mso-spacerun:yes&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="39" y="610" width="661" height="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
